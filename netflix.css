@@ -1,0 +1,1111 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(./IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color:grey;
+}
+
+
+header{
+   display: flex; 
+   justify-content: space-between;
+   padding: 20px 170px;
+   padding: 20px 69px;
+}
+
+#right ul{
+  display:flex;
+  gap:20px;
+  list-style-type: none;
+}
+
+#left img{
+  width: 150%;
+  height: 162px;
+}
+
+ header #right ul li button{
+  width: 100%;
+  padding: 7px 10px;
+}
+
+#right button{
+  background-color: rgb(220, 3, 3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+
+#right select{
+  background:none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px ;
+  padding: 8px;
+  padding-left: 30px;
+ 
+}
+.se{
+  position: relative;
+}
+
+
+.fa-language{
+  position: absolute;
+  top: 23.4%;
+  right: 74%;
+  color: aliceblue;
+}
+
+#second{
+  /* display: flex;
+  justify-content: center; */
+  width: 65%;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+#second h1{
+  padding: 25px;
+  font-size: 3rem;
+  margin-bottom: 0;
+
+}
+
+#second #pp1{
+font-size: 1.5rem;
+margin: 0;
+}
+
+#second #pp2{
+  font-size: 1.2rem;
+margin-top: 25px;
+}
+
+#second input{
+  background: transparent;
+  width: 40%;
+  height: 3.3rem;
+  border-radius: 5px;
+  color: white;
+  border:1px solid white;
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+#second button{
+  width:25%;
+  height: 3.3rem;
+  background-color: rgb(220, 3, 3);
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: white;
+  margin-left: 10px;
+}
+
+#but{
+  display: flex;
+  justify-content: space-between;
+}
+
+#tv{
+  width:100%;
+  margin: auto;
+  display: flex;
+  color: white;
+  align-items: center;
+  background-color:black;
+  
+ height: 500px;
+ margin-top: 46px;
+}
+
+#tvleft{
+  width: 50%;
+  padding-left: 150px;
+}
+
+#tvleft h1{
+  font-size: 3rem;
+}
+#tvleft p{
+  font-size: 1.5rem;
+}
+
+#tvright{
+  width: 50%;
+position: relative;
+padding-right: 150px;
+}
+
+#tvright img{
+  position: relative;
+  width: 100%;
+z-index: 2;
+}
+
+#tvright video{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  width: 60%;
+  z-index: 1;
+  
+}
+ 
+#forth{
+  display: flex;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  height: 480px;
+}
+
+#forth #leftmob  {
+width: 50%;
+}
+
+
+#forth #leftmob #box3 img {
+  width: 70%;
+  margin-left:185px ;
+  margin-top: 40px;
+  position: relative;
+  }
+
+#forth #rightmob  {
+  width: 50%;
+padding-left: 30px;
+  }
+  
+#forth #rightmob h1{
+font-size: 3rem;
+padding-top: 40px;
+margin-bottom: 20px;
+}
+
+#forth #rightmob p{
+  font-size: 1.5rem;
+  }
+
+  #forth #rightmob p{
+    font-size: 1.5rem;
+    }
+
+    #forth #leftmob #box4 {
+      width: 40%;
+      height: 95px;
+      background-color:black;
+      border-radius:10px ;
+      border: 2px solid grey;
+      position: relative;
+      margin-left:277px ;
+      bottom: 120px;
+      position: relative;
+      } 
+
+      #forth #leftmob #box4 i{
+        position: absolute;
+        top: 40%;
+  right: 10%;
+  color: #4e4ed3;
+      }
+
+      #box4 img{
+        width: 60px;
+        height: 80px;
+      margin-left:15px ;
+      margin-top: 7px;
+      
+      }
+
+      #box4 h4{
+        display: inline;
+position: absolute;
+top: 0;
+left: 36%;
+      }
+
+#apple{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  margin-top: 10px;
+  height: 500px;
+}
+
+#appleleft{
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding-left: 150px;
+}
+
+#appleright{
+  width: 50%;
+  position: relative;
+  margin-top: 75px;
+margin-right: 60px;
+}
+
+#appleleft h1{
+  font-size: 3rem;
+}
+#appleleft p{
+  font-size: 1.5rem;
+}
+
+#appleright img{
+  width: 85%;
+  position: relative;
+  z-index: 2;
+  
+}
+
+#appleright video{
+  width: 52.8%;
+  position: absolute;
+  right: 31.5%;
+  top: 7.7%;
+
+}
+
+#third{
+display: flex;
+background-color: black;
+color: white;
+margin-top: 10px;
+height: 500px;
+
+}
+
+#tleft{
+  width: 50%;
+padding: 60px 0px 60px 150px ;
+}
+
+#tright{
+  width: 50%;
+
+}
+
+#tleft img{
+width:80%;
+}
+
+#tright h1{
+  font-size: 3rem;
+  padding-top: 10%;
+  margin-bottom: 10px;
+}
+
+#tright p {
+  font-size: 1.5rem;
+}
+
+#fo {
+  color:rgb(196, 193, 193);
+ }
+
+ #fo a{
+  color:rgb(196, 193, 193);
+ }
+
+ #box{
+  display: flex;
+  padding: 0px 107px;
+
+ }
+.one1{
+  display: flex;
+}
+
+.two1{
+  display: flex;
+}
+
+
+
+ #box li{
+  padding-right: 95px;
+  list-style-type:none;
+  padding-bottom: 15px;
+ }
+
+ #fo h4{
+
+margin-bottom:10px;
+margin-top: 10px;
+padding-top: 70px;
+margin-left: 147px;
+ }
+
+footer{
+  background-color: black;
+margin-bottom: 0px;
+}
+
+
+#fo h4 span{
+  text-decoration: underline;
+}
+
+#dropd{
+  list-style-type: none;
+  padding-left: 105px;
+ }
+
+#dropdo{
+  background: transparent;
+  color: white;
+  width: 10%;
+  height: 35px;
+  border-radius: 5px ;
+  border: 1px solid grey;
+
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+#fo h5{
+  padding-bottom: 70px;
+  padding-left: 147px;
+  margin-bottom: 0px;
+}
+
+
+
+
+@media(max-width:600px){
+  body{
+
+margin: 0;
+padding: 0;
+     background-image: radial-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(./crop.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-size: 110%;
+    
+  }
+  
+  header{
+    padding: 0px 30px;
+    
+  }
+  
+  #right ul{
+  padding-top:10px ;
+  gap:7.5px
+  }
+  
+  #left img{
+    width: 110%;
+    height: 109px;
+  }
+  
+   header #right ul li button{
+    width: 100%;
+    padding: 7px 10px;
+  }
+  
+  #right button{
+    background-color: rgb(220, 3, 3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+  
+  }
+  
+  #right select{
+    background:none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px ;
+    padding: 8px;
+    padding-left: 30px;
+    position: relative;
+  }
+  
+  
+
+  #second{
+
+    width: 80%;
+  }
+  
+  #second h1{
+    padding: 0px;
+    font-size: 2.2rem;
+  
+  }
+  
+
+  #second #pp2{
+    font-size: 1.2rem;
+  margin-top: 15px;
+  }
+  
+  #second input{
+  
+    width: 90%;
+    padding-left: 20px;
+    font-size: 1.1rem;
+  height: 2.5rem;
+  }
+  
+  #second button{
+    width: 49%;
+    font-weight: 400;
+   margin-top: 15px;
+    height: 3rem;
+    font-size: 1.3rem;
+  }
+  
+ 
+  #tv{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+   
+    padding-bottom: 50px;
+    margin-top: 80px;
+  }
+  
+  #tvleft{
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+
+  #tvright img {
+    z-index: 2;
+    margin-left: 25px;
+    width: 90%;
+  }
+
+
+  #tvright{
+    width: 100%;
+    position: relative;
+    padding-left: 0px;
+  }
+
+  #tvleft h1 {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 18px;
+  }
+
+  #tvleft p {
+    font-size: 1.2rem;
+  }
+
+
+  #tvright video{
+    left: 17.3%;
+    top: 20%;
+    width: 66%;
+  }
+  
+  #tvright {
+    padding: 0px;
+  }
+
+  #forth{
+    display: flex;
+    height: 610px;
+    flex-direction: column-reverse;
+    
+  }
+  
+  #forth #leftmob  {
+  width: 100%;
+ }
+  
+  
+  #forth #leftmob #box3 img {
+    width: 90%;
+    margin-left: 29px;
+    margin-top: 10px;
+    position: relative;
+    }
+  
+  #forth #rightmob  
+  {
+    width: 100%;
+    padding-left: 0px;
+  }
+    
+
+ #forth #rightmob h1{
+      font-size: 2rem;
+        padding-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  margin: auto;
+  }
+  
+  #forth #rightmob p{
+    font-size: 1.3rem;
+    text-align: center;
+  margin: auto;
+  margin-top: 20px;
+    }
+  
+   
+  
+      #forth #leftmob #box4 {
+        width: 70%;
+        height: 65px;
+        margin-left: 70px;
+        bottom: 90px;
+        } 
+  
+       
+        #box4 h4 {
+          left: 27%;
+          margin-top: 15px;
+        }
+
+        #box4 img {
+          width: 50px;
+          height: 50px;
+      
+        }
+
+
+        #apple{
+          width: 100%;
+          height: 600px;
+          display: flex;
+          margin-top: 10px;
+          display: flex;
+          flex-direction: column;
+        }
+        
+        #appleleft{
+          width: 100%;
+          margin: auto;
+          padding-left: 0px;
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 0px;
+        }
+        
+        #appleright{
+          width: 100%;
+          margin: 0px;
+          margin-top: 25px;
+        }
+        
+        #appleleft h1{
+          font-size: 2rem;
+        }
+        #appleleft p{
+          font-size: 1.3rem;
+        }
+        
+        #appleright img{
+          width: 85%;
+          margin-left: 28px;
+        }
+        
+        #appleright video{
+          top: 8%;
+          right: 25%;
+        }
+
+
+        #third{
+          display: flex;
+          flex-direction: column-reverse;
+          height: 610px;
+          margin-top: 15px;
+          }
+          
+         
+          
+          #tright{
+            width: 100%;
+            padding-left: 0px;
+            text-align: center;
+            margin: auto;
+          }
+          
+          #tleft img{
+          width:100%;
+       
+          }
+
+          #tleft{
+            width: 100%;
+            padding-top: 0;
+            padding-left: 0;
+            padding-bottom: 35px;
+          }
+          
+          #tright h1{
+            font-size: 2rem;
+          
+            padding-top: 10%;
+            margin-bottom: 0px;
+          }
+          
+          #tright p {
+            font-size: 1.3rem;
+          }
+          
+          #fo {
+            color:rgb(196, 193, 193);
+           }
+          
+           #fo a{
+            color:rgb(196, 193, 193);
+           }
+          
+           #box{
+            display: flex;
+            flex-direction: column;
+            padding: 0px 84px;
+            padding-right: 0px;
+            padding-left: 0px;
+           }
+          
+           #box li{
+            list-style-type:none;
+            padding-bottom: 15px;
+            padding-right: 0px;
+           }
+
+           #box .one1 li{
+            padding-right: 65px;
+           }
+
+           
+           /* #box .two1 li{
+            padding-right: 65px;
+           } */
+          
+
+           #fo h4{
+            margin-left: 39px;
+           }
+          
+          footer{
+            background-color: black;
+          padding-bottom: 0px;
+          }
+          
+        
+          
+          #fo h4 span{
+            text-decoration: underline;
+          }
+          
+          #dropd{
+            list-style-type: none;
+            padding-left: 0px;
+            
+           }
+          
+          #dropdo{
+            width: 20%;
+          }
+          
+          ul{
+            margin-bottom: 0;
+          }
+          
+          #fo h5{
+            padding-left: 44px;
+            padding-bottom: 0px;
+          }
+          
+          .one1{
+            display: flex;
+            justify-content: space-between;
+         }
+
+         .two1{
+          display: flex;
+          justify-content: space-between;
+         }
+
+#four li{
+  padding-right: 101px;
+  padding-right: 82px;
+}
+}
+
+
+ @media(min-width:601px) and (max-width:1000px)
+   {
+    body{
+            margin: 0;
+            padding: 0;
+            background-image: radial-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(./IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-size: 153%;
+            background-color:grey;
+          }
+
+          #but{
+            display: flex;
+          }
+          header{
+         
+          padding-left: 67px;
+          padding-right: 67px;
+            
+          }
+          
+          #right ul{
+          padding-top:10px ;
+          gap:7.5px
+          }
+          
+          #left img{
+            width: 110%;
+            height: 164px;
+          }
+          
+           header #right ul li button{
+            width: 100%;
+            padding: 7px 10px;
+          }
+          
+          #right button{
+            background-color: rgb(220, 3, 3);
+            color: white;
+            border: none;
+            border-radius: 5px;
+          
+          }
+          
+          #right select{
+            background:none;
+            border: 1px solid white;
+            color: white;
+            border-radius: 5px ;
+            padding: 8px;
+            padding-left: 30px;
+            position: relative;
+          }
+              
+
+       #second{
+        
+            width: 80%;
+          }
+          
+          #second h1{
+            padding: 0px;
+            font-size: 3rem;
+          
+          }
+          
+        
+          #second #pp2{
+            font-size: 1.5rem;
+          margin-top: 15px;
+          }
+          
+          #second input{
+            width: 49%;
+            padding-left: 20px;
+            font-size: 1.1rem;
+            height: 3.5rem;
+          }
+          
+          #second button{
+            width: 30%;
+            font-weight: 400;
+            margin-top: 15px;
+            height: 3.7rem;
+            font-size: 1.3rem;
+          }
+          
+         
+          #tv{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 50px;
+            margin-top: 75px;
+            height: 797px;
+          }
+          
+          #tvleft{
+            width: 100%;
+            padding-left: 0px;
+            text-align: center;
+          }
+        
+        
+          #tvright img {
+            z-index: 2;
+            margin-left: 50px;
+            width: 90%;
+          }
+        
+        
+          #tvright{
+            width: 100%;
+            position: relative;
+            padding-left: 0px;
+          }
+        
+          #tvleft h1 {
+            font-size: 3rem;
+            margin-top: 71px;
+            margin-bottom: 18px;
+          }
+        
+          #tvleft p {
+            font-size: 1.5rem;
+            margin-bottom: 0px;
+          }
+        
+        
+        
+          #tvright video{
+            left: 17.3%;
+            top: 20%;
+            width: 66%;
+          }
+          
+          #tvright {
+            padding: 0px;
+          }
+        
+          #forth{
+            display: flex;
+            height: 969px;
+            flex-direction: column-reverse;
+            margin-top: 11px;
+          
+          }
+          
+          #forth #leftmob  {
+          width: 100%;
+         
+          }
+          
+          
+          #forth #leftmob #box3 img {
+            width: 89%;
+            margin-left: 57px;
+            margin-top: 10px;
+            position: relative;
+            }
+          
+          #forth #rightmob  {
+            width: 100%;
+            padding-left: 0px;
+        
+            }
+            
+          #forth #rightmob h1{
+            font-size: 3rem;
+            
+          padding-top: 40px;
+          margin-bottom: 20px;
+          text-align: center;
+          margin: auto;
+          }
+          
+          #forth #rightmob p{
+            font-size: 1.5rem;
+            text-align: center;
+          margin: auto;
+          margin-top: 20px;
+            }
+          
+           
+          
+              #forth #leftmob #box4 {
+                width: 57%;
+                height: 96px;
+                margin-left: 197px;
+                bottom: 90px;
+                } 
+          
+               
+                #box4 h4 {
+                  left: 25%;
+                  margin-top: 15px;
+                  top: 10%;
+                }
+        
+                #box4 img {
+                  width: 80px;
+                  height: 75px;
+              
+                }
+        
+        
+                #apple{
+                  width: 100%;
+                  height: 883px;
+                  display: flex;
+                  margin-top: 10px;
+                  display: flex;
+                  flex-direction: column;
+                }
+                
+                #appleleft{
+                  width: 100%;
+                  margin: auto;
+                  padding-left: 0px;
+                  text-align: center;
+                  margin-top: 20px;
+                  margin-bottom: 0px;
+                }
+                
+                #appleright{
+                  width: 100%;
+                  margin: 0px;
+                  margin-top: 25px;
+                }
+                
+                #appleleft h1{
+                  font-size: 3rem;
+                }
+                #appleleft p{
+                  font-size: 1.5rem;
+                }
+                
+                #appleright img{
+                  width: 85%;
+    margin-left: 70px;
+                }
+                
+                #appleright video{
+                  top: 8%;
+                  right: 25%;
+                }
+        
+        
+                #third{
+                  display: flex;
+                  flex-direction: column-reverse;
+                  height: 993px;
+                  margin-top: 10px;
+                  }
+                  
+                 
+                  
+                  #tright{
+                    width: 100%;
+                    padding-left: 0px;
+                    text-align: center;
+                    margin: auto;
+                  }
+                  
+                  #tleft img{
+                  width:100%;
+               
+                  }
+        
+                  #tleft{
+                    width: 100%;
+                    padding-top: 0;
+                    padding-left: 0;
+                    padding-bottom: 35px;
+                  }
+                  
+                  #tright h1{
+                    font-size: 3rem;
+                  
+                    padding-top: 10%;
+                    margin-bottom: 0px;
+                  }
+                  
+                  #tright p {
+                    font-size: 1.5rem;
+                  }
+                  
+                  #fo {
+                    color:rgb(196, 193, 193);
+                   }
+                  
+                   #fo a{
+                    color:rgb(196, 193, 193);
+                   }
+                  
+               #box{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0px 84px;
+                    padding-left: 6px;
+                     padding-right: 187px;
+                  }
+                  
+                   #box li{
+                    padding-right: 95px;
+                    list-style-type:none;
+                    padding-bottom: 15px;
+                   }
+                  
+                   #fo h4{
+                    margin-left: 42px;
+                   }
+                  
+                  footer{
+                    background-color: black;
+                  
+                  }
+                  
+                  
+                  #fo h4 span{
+                    text-decoration: underline;
+                  }
+                  
+                  #dropd{
+                    padding-left: 7px;
+                    
+                   }
+                  
+                  #dropdo{
+                    width: 15%;
+                  }
+                  
+                  ul{
+                    margin-bottom: 0;
+                  }
+                  
+                  #fo h5{
+                    padding-left: 51px;
+                    padding-bottom: 70px;
+                  }
+        
+                .one1{
+                    display: flex;
+                    justify-content: space-between;
+                 }
+
+                 .two1{
+                  display: flex;
+                  justify-content: space-between;
+                 }
+                 
+                 #four li{
+                 padding-right: 130px;
+              }
+
+}
+
+
+
+
